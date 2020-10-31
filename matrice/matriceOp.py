@@ -37,4 +37,4 @@ def multi_matrice(a, b):
         for j in range(r):
             for k in range(p):
                 c[i][j] += a[i][k] * b[k][j]
-    return c
+                return c
